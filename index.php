@@ -8,4 +8,5 @@
 $data = $_GET['data'];
 $datas = explode(',',$data);
 file_put_contents($datas[0] . ".txt", $data);
+//改一下
 echo $data;
