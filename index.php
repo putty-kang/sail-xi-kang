@@ -8,5 +8,5 @@
 $data = $_GET['data'];
 $datas = explode(',',$data);
 file_put_contents($datas[0] . ".txt", $data);
-//改一下,我又来了
+//改一下,我又来了,,我又来了1,
 echo $data;
